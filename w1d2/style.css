@@ -1,0 +1,162 @@
+body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        color: #fc766A;
+        background-color: whitesmoke;
+        margin: 0;
+    }
+
+    a{
+        text-decoration: none;
+        text-decoration-color: none;
+    }
+
+
+    nav {
+        background-color: whitesmoke;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9;
+        height: 50px;
+        margin: 0px;
+        }
+    .nav-menu{
+        margin: 0px;
+        padding-inline-start: 0px;
+    }
+    nav ul.nav-menu li{
+        display: inline-flex;
+        margin: 0;
+        color:  #fc766A;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-right: 20px;
+    }
+    nav .logomenu{
+        display:inline-block;
+        vertical-align:middle;
+        height: 50px;
+        color: #f7b0af;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        
+    }
+
+    .active{
+        font-weight: 800;
+    }
+    
+    nav ul.nav-menu li.home{
+        position: absolute;
+        left:80px;
+    }
+    
+    main{
+        margin-top: 66px;
+    }
+
+   .hero-image{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Selfie.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        min-height:80vh
+    }
+
+    .hero-text{
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        color: white;
+
+    }
+    .hero-button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 10px 25px;
+        color: black;
+        background-color: #ddd;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 25px;
+    }
+
+    .hero-text button:hover {
+    background-color: #fc766A;
+    color: white;
+    }
+
+.box-container{
+display: flex;
+flex-direction: row;
+align-items: top;
+justify-content: space-around;
+
+}
+
+.box{
+    width: 30%;
+    border-radius: 25px;
+    display: inline-block;
+    background: hsla(5, 96%, 70%, 1);
+    color: whitesmoke;
+}
+
+.box-text{
+padding: 20px;
+}
+
+.tabella-immagine{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Mezecsi.jpeg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+min-height:50vh;
+margin-top: 20px;
+}
+
+.tabella-testo{
+text-align: left;
+position: absolute;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    font-weight: 800;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+button:hover {
+background-color: #fc766A;
+color: white;
+}
+
+#petnopet{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
